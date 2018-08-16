@@ -1,0 +1,27 @@
+{
+  "name": "iefragment",
+  "version": "0.1.0",
+  "description": "Demonstrates issue with fragments in IE11, possibly due to Google Maps",
+  "author": "Jamie Winder",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server -s -o -c-1 -p8080",
+    "build-run": "npm run -s build && npm run -s start"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dnd": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/polyfill": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta",
+    "http-server": "^0.11.1",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
+  }
+}
